@@ -1,0 +1,20 @@
+.notify-close-all {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #1e1e1e;
+    border: #eaeaea 1px solid;
+    color: #eaeaea;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+}
+
+.notify-close-all:hover {
+    background-color: #eaeaea;
+    color: #1e1e1e;
+}
