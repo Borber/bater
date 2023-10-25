@@ -1,7 +1,3 @@
-# Tauri + Solid + Typescript
+# Bater
 
-This template should help get you started developing with Tauri, Solid and Typescript in Vite.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+这是一个实验性的项目, 用于探索 tauri 开发, 或通过一些方式来解决 webview 的限制
