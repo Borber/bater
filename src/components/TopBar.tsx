@@ -1,7 +1,7 @@
-import "../css/TopBar.css";
+import "../css/TopBar.css"
 
 const TopBar = () => {
-    return <div data-tauri-drag-region class="top-bar"></div>;
-};
+    return <div data-tauri-drag-region class="top-bar" />
+}
 
-export default TopBar;
+export default TopBar

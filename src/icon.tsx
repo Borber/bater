@@ -1,5 +1,5 @@
 interface IconProps {
-    size?: number;
+    size?: number
 }
 
 export const Minimize = (props: IconProps) => {
@@ -11,8 +11,8 @@ export const Minimize = (props: IconProps) => {
             viewBox="0 0 12 12">
             <rect fill="currentColor" width="10" height="1" x="1" y="6" />
         </svg>
-    );
-};
+    )
+}
 
 export const Maximize = (props: IconProps) => {
     return (
@@ -30,8 +30,8 @@ export const Maximize = (props: IconProps) => {
                 stroke="currentColor"
             />
         </svg>
-    );
-};
+    )
+}
 
 export const Close = (props: IconProps) => {
     return (
@@ -46,8 +46,8 @@ export const Close = (props: IconProps) => {
                 points="11 1.576 6.583 6 11 10.424 10.424 11 6 6.583 1.576 11 1 10.424 5.417 6 1 1.576 1.576 1 6 5.417 10.424 1"
             />
         </svg>
-    );
-};
+    )
+}
 
 export const FuturesIcon = (props: IconProps) => {
     return (
@@ -145,8 +145,8 @@ export const FuturesIcon = (props: IconProps) => {
                 stroke-width="3"
             />
         </svg>
-    );
-};
+    )
+}
 
 export const SettingIcon = (props: IconProps) => {
     return (
@@ -187,8 +187,8 @@ export const SettingIcon = (props: IconProps) => {
                 d="M61.5,88h-23c-1.93,0-3.5-1.57-3.5-3.5V65H15.5c-1.93,0-3.5-1.57-3.5-3.5v-23	c0-1.93,1.57-3.5,3.5-3.5H35V15.5c0-1.93,1.57-3.5,3.5-3.5h23c1.93,0,3.5,1.57,3.5,3.5V35h19.5c1.93,0,3.5,1.57,3.5,3.5v23	c0,1.93-1.57,3.5-3.5,3.5H65v19.5C65,86.43,63.43,88,61.5,88z M15.5,38c-0.276,0-0.5,0.224-0.5,0.5v23c0,0.275,0.224,0.5,0.5,0.5h21	c0.829,0,1.5,0.672,1.5,1.5v21c0,0.275,0.224,0.5,0.5,0.5h23c0.275,0,0.5-0.225,0.5-0.5v-21c0-0.828,0.672-1.5,1.5-1.5h21	c0.275,0,0.5-0.225,0.5-0.5v-23c0-0.276-0.225-0.5-0.5-0.5h-21c-0.828,0-1.5-0.671-1.5-1.5v-21c0-0.276-0.225-0.5-0.5-0.5h-23	c-0.276,0-0.5,0.224-0.5,0.5v21c0,0.829-0.671,1.5-1.5,1.5H15.5z"
             />
         </svg>
-    );
-};
+    )
+}
 
 export const AboutIcon = (props: IconProps) => {
     return (
@@ -304,5 +304,5 @@ export const AboutIcon = (props: IconProps) => {
                 d="M49.999,32.919c-14.919,0-27.013,8.328-27.013,19.356c0,7.485,9.322,14.967,18.088,20.544	c1.231,0.783,2.694,1.191,4.189,1.191l4.736,1l4.733-1c1.495,0,2.958-0.407,4.189-1.191c8.766-5.577,18.088-13.059,18.088-20.544	C77.011,41.247,64.917,32.919,49.999,32.919z"
             />
         </svg>
-    );
-};
+    )
+}
