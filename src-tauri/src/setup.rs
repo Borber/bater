@@ -1,15 +1,13 @@
 use std::error::Error;
 
-use tauri::{App, Manager};
+use tauri::App;
 
 use crate::window;
 
 pub fn handler(app: &mut App) -> Result<(), Box<dyn Error>> {
     if cfg!(any(target_os = "macos", target_os = "windows")) {
-        let window = app.get_window("main").unwrap();
-        window::decor(&window);
-        let window = app.get_window("tray").unwrap();
-        window::decor(&window);
+        window::decor(app, "main");
+        window::decor(app, "tray");
     };
     Ok(())
 }

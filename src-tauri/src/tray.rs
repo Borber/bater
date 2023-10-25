@@ -8,6 +8,9 @@ pub fn new() -> SystemTray {
 
 pub fn handler(app: &AppHandle, event: SystemTrayEvent) {
     match event {
+        // 左键点击时, 显示窗口
+        //
+        // Left-click to show the window
         SystemTrayEvent::LeftClick { .. } => {
             let main = app.get_window("main").unwrap();
             if main.is_minimized().unwrap() {
@@ -18,6 +21,9 @@ pub fn handler(app: &AppHandle, event: SystemTrayEvent) {
             }
             main.set_focus().unwrap();
         }
+        // 右键点击时, 显示托盘菜单
+        //
+        // Right-click to show the tray menu
         SystemTrayEvent::RightClick { .. } => {
             let position = Mouse::get_mouse_position();
             match position {

@@ -1,4 +1,6 @@
-/// 检测是否能应用半透明效果
+/// 检测系统是否能应用半透明效果
+///
+/// Checks if the system can apply a semi-transparent effect
 pub fn vibrancy() -> bool {
     #[cfg(target_os = "macos")]
     {
