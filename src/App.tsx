@@ -1,6 +1,6 @@
 import "./App.css"
 
-import { useRoutes } from "@solidjs/router"
+import { Router } from "@solidjs/router"
 import { getCurrent } from "@tauri-apps/api/window"
 import { lazy, onMount } from "solid-js"
 
@@ -32,9 +32,7 @@ const App = () => {
         ...notifyRoutes(),
     ]
 
-    const Routes = useRoutes(routes)
-
-    return <Routes />
+    return <Router>{routes}</Router>
 }
 
 export default App
